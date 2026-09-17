@@ -187,6 +187,3 @@ bidpilot/
 - 真模型输出需供应商支持 function calling；超时/无效 schema 最多两次，失败保守降级或明确报错。
 - Full Compose、Redis/PostgreSQL 实例、BGE/reranker 和真实 API 需要用户环境验证；环境不具备时绝不填虚构指标。
 
-## Resume Talking Points
-
-可以讲：职责拆分、显式状态路由、确定性评分、RAG 与 MCP 分工、人工中断恢复、错误预算与评测反例。不要讲没有测量的模型效果、生产规模或 Windows 实测。[三条简历描述](docs/resume.md) · [面试题](docs/interview-guide.md) · [初学者指南](PROJECT_GUIDE.md) · [参考资料](docs/references.md)
