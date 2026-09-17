@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-bank-data-platform.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "02-ecommerce-observability.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "03-manufacturing-data.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "04-api-gateway.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "05-qualification-gap.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "06-strict-sla.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "07-private-analytics.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "08-devops-monitoring.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "09-high-throughput.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "10-disaster-recovery.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "11-commercial-package.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "12-multi-tenant.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "13-bank-compliance.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "14-minimal-rfp.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "15-mixed-identity.md",
+    "missing": [],
+    "extra": []
+  },
+  {
+    "file": "16-compound-support.md",
+    "missing": [],
+    "extra": []
+  }
+]

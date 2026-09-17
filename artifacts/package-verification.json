@@ -1,0 +1,11 @@
+{
+  "zip_integrity": "PASS",
+  "excluded_sensitive_and_runtime_files": "PASS",
+  "required_files": "PASS",
+  "extracted_path_with_unicode_and_spaces": "PASS on Linux, not a Windows execution",
+  "cli_demo": "PASS",
+  "decision": "BID",
+  "hitl_explicit_approve_and_mcp_save": "PASS",
+  "archive_file_count": 147,
+  "note": "Final archive includes this verification record; only documentation/record changed after executable smoke test."
+}

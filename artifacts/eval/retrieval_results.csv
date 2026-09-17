@@ -1,0 +1,121 @@
+﻿id,mode,query,k,recall_at_k,hit,rr,retrieved_docs,expected_docs
+R001,vector,系统必须支持 Kubernetes 私有化部署,4,1.0,1,1.0,technical/kubernetes_deployment.md|products/data_platform.md|technical/high_availability.md|products/observability_platform.md,technical/kubernetes_deployment.md
+R002,vector,系统应支持高可用和故障切换,4,1.0,1,1.0,technical/high_availability.md|products/observability_platform.md|technical/integration.md|products/data_platform.md,technical/high_availability.md
+R003,vector,投标人必须具备 ISO27001 认证,4,1.0,1,0.3333333333333333,company/organization.md|certifications/iso9001.md|certifications/iso27001.md|certifications/software_copyright.md,certifications/iso27001.md
+R004,vector,投标人应具备 ISO9001 认证,4,1.0,1,1.0,certifications/iso9001.md|certifications/iso27001.md|company/organization.md|certifications/software_copyright.md,certifications/iso9001.md
+R006,vector,产品应具备软件著作权,4,1.0,1,1.0,certifications/software_copyright.md|certifications/iso9001.md|certifications/iso27001.md|company/company_profile.md,certifications/software_copyright.md
+R007,vector,系统应支持 RBAC 权限与审计,4,1.0,1,1.0,technical/security_architecture.md|products/observability_platform.md|products/data_platform.md|products/api_gateway.md,technical/security_architecture.md
+R008,vector,系统必须支持数据脱敏,4,1.0,1,1.0,technical/data_governance.md|technical/integration.md|technical/security_architecture.md|products/data_platform.md,technical/data_governance.md
+R009,vector,容灾要求 RTO 30 分钟且 RPO 5 分钟,4,1.0,1,1.0,technical/disaster_recovery.md|products/observability_platform.md|technical/integration.md|technical/high_availability.md,technical/disaster_recovery.md
+R010,vector,容灾要求 RTO 10 分钟且 RPO 1 分钟,4,1.0,1,1.0,technical/disaster_recovery.md|technical/integration.md|products/observability_platform.md|technical/high_availability.md,technical/disaster_recovery.md
+R011,vector,查询性能应达到 QPS 1000,4,1.0,1,1.0,technical/performance.md|technical/data_governance.md|products/data_platform.md|technical/high_availability.md,technical/performance.md
+R012,vector,查询性能应达到 QPS 5000,4,1.0,1,1.0,technical/performance.md|technical/data_governance.md|products/data_platform.md|technical/high_availability.md,technical/performance.md
+R013,vector,系统应支持 Prometheus 指标采集,4,1.0,1,1.0,products/observability_platform.md|technical/integration.md|technical/disaster_recovery.md|products/data_platform.md,products/observability_platform.md
+R014,vector,系统应支持 OpenTelemetry 链路接入,4,1.0,1,1.0,products/observability_platform.md|technical/integration.md|products/data_platform.md|technical/disaster_recovery.md,products/observability_platform.md
+R015,vector,网关必须支持 API限流和 OIDC,4,1.0,1,1.0,products/api_gateway.md|products/observability_platform.md|technical/integration.md|products/data_platform.md,products/api_gateway.md
+R016,vector,网关应支持 OIDC 和 SAML,4,1.0,1,0.5,products/observability_platform.md|products/api_gateway.md|technical/integration.md|technical/high_availability.md,products/api_gateway.md
+R017,vector,系统必须支持 SAML 单点登录,4,1.0,1,1.0,products/api_gateway.md|technical/integration.md|products/observability_platform.md|products/data_platform.md,products/api_gateway.md
+R018,vector,平台必须支持 ETL 和 SQL,4,1.0,1,1.0,products/data_platform.md|technical/security_architecture.md|products/observability_platform.md|products/api_gateway.md,products/data_platform.md
+R019,vector,平台应支持多租户,4,1.0,1,1.0,products/data_platform.md|technical/security_architecture.md|products/api_gateway.md|products/observability_platform.md,products/data_platform.md
+R020,vector,服务可用性不低于 99.95%,4,1.0,1,1.0,services/sla.md|technical/high_availability.md|services/maintenance.md|technical/performance.md,services/sla.md
+R021,vector,服务可用性不低于 99.99%,4,1.0,1,1.0,services/sla.md|technical/high_availability.md|services/maintenance.md|technical/disaster_recovery.md,services/sla.md
+R022,vector,供应商应提供技术支持 3 年,4,1.0,1,0.3333333333333333,technical/integration.md|services/sla.md|services/maintenance.md|technical/security_architecture.md,services/maintenance.md
+R023,vector,供应商必须提供技术支持 5 年,4,1.0,1,0.3333333333333333,technical/integration.md|services/sla.md|services/maintenance.md|services/implementation.md,services/maintenance.md
+R024,vector,项目交付不超过 90 天,4,1.0,1,1.0,services/implementation.md|services/commercial.md|technical/security_architecture.md|technical/kubernetes_deployment.md,services/implementation.md
+R025,vector,项目交付不超过 30 天,4,1.0,1,1.0,services/implementation.md|technical/security_architecture.md|services/commercial.md|technical/kubernetes_deployment.md,services/implementation.md
+R026,vector,项目应提供培训,4,1.0,1,0.5,services/implementation.md|services/training.md|services/sla.md|technical/integration.md,services/training.md
+R027,vector,服务应提供 7x24 故障响应,4,1.0,1,1.0,services/sla.md|services/maintenance.md|technical/high_availability.md|technical/integration.md,services/sla.md
+R028,vector,合同采用固定总价,4,1.0,1,1.0,services/commercial.md|services/sla.md|services/training.md,services/commercial.md
+R029,vector,支持分期付款,4,1.0,1,1.0,services/commercial.md|services/implementation.md|services/maintenance.md|services/training.md,services/commercial.md
+R030,vector,提供银行项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/banking_case.md|technical/integration.md|cases/manufacturing_case.md,cases/banking_case.md
+R031,vector,提供电商项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/ecommerce_case.md|historical_bids/ecommerce_rfp_2025.md|technical/integration.md,cases/ecommerce_case.md
+R032,vector,提供制造项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/manufacturing_case.md|cases/ecommerce_case.md|technical/integration.md,cases/manufacturing_case.md
+R034,vector,平台应支持 Kubernetes 与技术支持 3 年,4,1.0,1,0.25,products/observability_platform.md|products/data_platform.md|technical/security_architecture.md|technical/kubernetes_deployment.md,technical/kubernetes_deployment.md
+R035,vector,私有化环境应支持 SQL 查询,4,1.0,1,0.5,technical/kubernetes_deployment.md|products/data_platform.md|products/observability_platform.md|technical/data_governance.md,products/data_platform.md
+R036,vector,网关应支持 SAML,4,1.0,1,0.5,products/observability_platform.md|products/api_gateway.md|technical/high_availability.md|technical/integration.md,products/api_gateway.md
+R037,vector,具备 ISO27001 与 ISO9001 认证,4,1.0,1,0.5,certifications/iso9001.md|certifications/iso27001.md|company/organization.md|certifications/software_copyright.md,certifications/iso27001.md
+R038,vector,系统应支持审计和数据脱敏,4,1.0,1,1.0,technical/security_architecture.md|products/data_platform.md|technical/data_governance.md|technical/integration.md,technical/security_architecture.md
+R039,vector,要求 ETL 数据集成与多租户,4,1.0,1,1.0,products/data_platform.md|technical/data_governance.md|technical/disaster_recovery.md|technical/integration.md,products/data_platform.md
+R040,vector,支持 Prometheus 和 OpenTelemetry,4,1.0,1,1.0,products/observability_platform.md|technical/security_architecture.md|products/data_platform.md|products/api_gateway.md,products/observability_platform.md
+R041,vector,本地部署 k8s 容器安装,4,1.0,1,1.0,technical/kubernetes_deployment.md|technical/high_availability.md|products/data_platform.md|technical/integration.md,technical/kubernetes_deployment.md
+R042,vector,管理员学习课程知识转移,4,1.0,1,1.0,services/training.md|services/implementation.md|technical/data_governance.md|technical/disaster_recovery.md,services/training.md|services/implementation.md
+R001,bm25,系统必须支持 Kubernetes 私有化部署,4,1.0,1,1.0,technical/kubernetes_deployment.md|products/data_platform.md|technical/high_availability.md|products/observability_platform.md,technical/kubernetes_deployment.md
+R002,bm25,系统应支持高可用和故障切换,4,1.0,1,1.0,technical/high_availability.md|technical/security_architecture.md|products/observability_platform.md|products/api_gateway.md,technical/high_availability.md
+R003,bm25,投标人必须具备 ISO27001 认证,4,1.0,1,1.0,certifications/iso27001.md|certifications/iso9001.md|company/organization.md|certifications/software_copyright.md,certifications/iso27001.md
+R004,bm25,投标人应具备 ISO9001 认证,4,1.0,1,1.0,certifications/iso9001.md|certifications/iso27001.md|certifications/software_copyright.md|company/company_profile.md,certifications/iso9001.md
+R006,bm25,产品应具备软件著作权,4,1.0,1,1.0,certifications/software_copyright.md|certifications/iso9001.md|certifications/iso27001.md|company/company_profile.md,certifications/software_copyright.md
+R007,bm25,系统应支持 RBAC 权限与审计,4,1.0,1,1.0,technical/security_architecture.md|products/data_platform.md|products/api_gateway.md|products/observability_platform.md,technical/security_architecture.md
+R008,bm25,系统必须支持数据脱敏,4,1.0,1,1.0,technical/data_governance.md|technical/security_architecture.md|technical/disaster_recovery.md|products/data_platform.md,technical/data_governance.md
+R009,bm25,容灾要求 RTO 30 分钟且 RPO 5 分钟,4,1.0,1,1.0,technical/disaster_recovery.md|technical/data_governance.md|technical/kubernetes_deployment.md,technical/disaster_recovery.md
+R010,bm25,容灾要求 RTO 10 分钟且 RPO 1 分钟,4,1.0,1,1.0,technical/disaster_recovery.md|technical/data_governance.md|technical/kubernetes_deployment.md,technical/disaster_recovery.md
+R011,bm25,查询性能应达到 QPS 1000,4,1.0,1,1.0,technical/performance.md|products/data_platform.md|technical/data_governance.md,technical/performance.md
+R012,bm25,查询性能应达到 QPS 5000,4,1.0,1,1.0,technical/performance.md|products/data_platform.md|technical/data_governance.md,technical/performance.md
+R013,bm25,系统应支持 Prometheus 指标采集,4,1.0,1,1.0,products/observability_platform.md|technical/integration.md|products/data_platform.md|technical/disaster_recovery.md,products/observability_platform.md
+R014,bm25,系统应支持 OpenTelemetry 链路接入,4,1.0,1,1.0,products/observability_platform.md|technical/integration.md|products/data_platform.md|products/api_gateway.md,products/observability_platform.md
+R015,bm25,网关必须支持 API限流和 OIDC,4,1.0,1,1.0,products/api_gateway.md|technical/integration.md|products/data_platform.md|technical/security_architecture.md,products/api_gateway.md
+R016,bm25,网关应支持 OIDC 和 SAML,4,1.0,1,1.0,products/api_gateway.md|technical/integration.md|products/observability_platform.md|products/data_platform.md,products/api_gateway.md
+R017,bm25,系统必须支持 SAML 单点登录,4,1.0,1,1.0,products/api_gateway.md|technical/high_availability.md|technical/security_architecture.md|products/observability_platform.md,products/api_gateway.md
+R018,bm25,平台必须支持 ETL 和 SQL,4,1.0,1,1.0,products/data_platform.md|technical/security_architecture.md|technical/integration.md|products/observability_platform.md,products/data_platform.md
+R019,bm25,平台应支持多租户,4,1.0,1,1.0,products/data_platform.md|products/api_gateway.md|technical/security_architecture.md|technical/high_availability.md,products/data_platform.md
+R020,bm25,服务可用性不低于 99.95%,4,1.0,1,1.0,services/sla.md|technical/high_availability.md|services/maintenance.md|technical/performance.md,services/sla.md
+R021,bm25,服务可用性不低于 99.99%,4,1.0,1,1.0,services/sla.md|technical/high_availability.md|services/maintenance.md|technical/performance.md,services/sla.md
+R022,bm25,供应商应提供技术支持 3 年,4,1.0,1,1.0,services/maintenance.md|services/sla.md|technical/integration.md|services/training.md,services/maintenance.md
+R023,bm25,供应商必须提供技术支持 5 年,4,1.0,1,1.0,services/maintenance.md|technical/integration.md|services/sla.md|services/training.md,services/maintenance.md
+R024,bm25,项目交付不超过 90 天,4,1.0,1,1.0,services/implementation.md|services/commercial.md|technical/kubernetes_deployment.md|services/training.md,services/implementation.md
+R025,bm25,项目交付不超过 30 天,4,1.0,1,1.0,services/implementation.md|services/commercial.md|technical/kubernetes_deployment.md|services/training.md,services/implementation.md
+R026,bm25,项目应提供培训,4,1.0,1,0.5,services/implementation.md|services/training.md|services/sla.md|services/commercial.md,services/training.md
+R027,bm25,服务应提供 7x24 故障响应,4,1.0,1,1.0,services/sla.md|services/maintenance.md|technical/high_availability.md|technical/integration.md,services/sla.md
+R028,bm25,合同采用固定总价,4,1.0,1,1.0,services/commercial.md|company/organization.md|services/sla.md|services/maintenance.md,services/commercial.md
+R029,bm25,支持分期付款,4,1.0,1,1.0,services/commercial.md|services/implementation.md|services/training.md|services/maintenance.md,services/commercial.md
+R030,bm25,提供银行项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/banking_case.md|cases/manufacturing_case.md|cases/ecommerce_case.md,cases/banking_case.md
+R031,bm25,提供电商项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/ecommerce_case.md|historical_bids/ecommerce_rfp_2025.md|cases/manufacturing_case.md,cases/ecommerce_case.md
+R032,bm25,提供制造项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/manufacturing_case.md|cases/ecommerce_case.md|technical/integration.md,cases/manufacturing_case.md
+R034,bm25,平台应支持 Kubernetes 与技术支持 3 年,4,1.0,1,0.5,technical/security_architecture.md|technical/kubernetes_deployment.md|products/observability_platform.md|technical/integration.md,technical/kubernetes_deployment.md
+R035,bm25,私有化环境应支持 SQL 查询,4,1.0,1,0.5,technical/kubernetes_deployment.md|products/data_platform.md|technical/performance.md|technical/data_governance.md,products/data_platform.md
+R036,bm25,网关应支持 SAML,4,1.0,1,1.0,products/api_gateway.md|products/observability_platform.md|technical/integration.md|products/data_platform.md,products/api_gateway.md
+R037,bm25,具备 ISO27001 与 ISO9001 认证,4,1.0,1,1.0,certifications/iso27001.md|certifications/iso9001.md|certifications/software_copyright.md|company/organization.md,certifications/iso27001.md
+R038,bm25,系统应支持审计和数据脱敏,4,1.0,1,1.0,technical/security_architecture.md|technical/data_governance.md|products/data_platform.md|technical/integration.md,technical/security_architecture.md
+R039,bm25,要求 ETL 数据集成与多租户,4,1.0,1,1.0,products/data_platform.md|technical/integration.md|technical/disaster_recovery.md|products/api_gateway.md,products/data_platform.md
+R040,bm25,支持 Prometheus 和 OpenTelemetry,4,1.0,1,1.0,products/observability_platform.md|products/data_platform.md|technical/integration.md|products/api_gateway.md,products/observability_platform.md
+R041,bm25,本地部署 k8s 容器安装,4,1.0,1,1.0,technical/kubernetes_deployment.md|technical/high_availability.md|products/data_platform.md|technical/disaster_recovery.md,technical/kubernetes_deployment.md
+R042,bm25,管理员学习课程知识转移,4,1.0,1,1.0,services/training.md|services/implementation.md|services/maintenance.md,services/training.md|services/implementation.md
+R001,hybrid,系统必须支持 Kubernetes 私有化部署,4,1.0,1,1.0,technical/kubernetes_deployment.md|products/data_platform.md|technical/high_availability.md|products/observability_platform.md,technical/kubernetes_deployment.md
+R002,hybrid,系统应支持高可用和故障切换,4,1.0,1,1.0,technical/high_availability.md|products/observability_platform.md|technical/security_architecture.md|products/data_platform.md,technical/high_availability.md
+R003,hybrid,投标人必须具备 ISO27001 认证,4,1.0,1,1.0,certifications/iso27001.md|company/organization.md|certifications/iso9001.md|certifications/software_copyright.md,certifications/iso27001.md
+R004,hybrid,投标人应具备 ISO9001 认证,4,1.0,1,1.0,certifications/iso9001.md|certifications/iso27001.md|certifications/software_copyright.md|company/organization.md,certifications/iso9001.md
+R006,hybrid,产品应具备软件著作权,4,1.0,1,1.0,certifications/software_copyright.md|certifications/iso9001.md|certifications/iso27001.md|company/company_profile.md,certifications/software_copyright.md
+R007,hybrid,系统应支持 RBAC 权限与审计,4,1.0,1,1.0,technical/security_architecture.md|products/data_platform.md|products/observability_platform.md|products/api_gateway.md,technical/security_architecture.md
+R008,hybrid,系统必须支持数据脱敏,4,1.0,1,1.0,technical/data_governance.md|technical/security_architecture.md|technical/integration.md|technical/disaster_recovery.md,technical/data_governance.md
+R009,hybrid,容灾要求 RTO 30 分钟且 RPO 5 分钟,4,1.0,1,1.0,technical/disaster_recovery.md|technical/data_governance.md|technical/kubernetes_deployment.md|products/observability_platform.md,technical/disaster_recovery.md
+R010,hybrid,容灾要求 RTO 10 分钟且 RPO 1 分钟,4,1.0,1,1.0,technical/disaster_recovery.md|technical/data_governance.md|technical/kubernetes_deployment.md|technical/integration.md,technical/disaster_recovery.md
+R011,hybrid,查询性能应达到 QPS 1000,4,1.0,1,1.0,technical/performance.md|technical/data_governance.md|products/data_platform.md|technical/high_availability.md,technical/performance.md
+R012,hybrid,查询性能应达到 QPS 5000,4,1.0,1,1.0,technical/performance.md|technical/data_governance.md|products/data_platform.md|technical/high_availability.md,technical/performance.md
+R013,hybrid,系统应支持 Prometheus 指标采集,4,1.0,1,1.0,products/observability_platform.md|technical/integration.md|technical/disaster_recovery.md|products/data_platform.md,products/observability_platform.md
+R014,hybrid,系统应支持 OpenTelemetry 链路接入,4,1.0,1,1.0,products/observability_platform.md|technical/integration.md|products/data_platform.md|products/api_gateway.md,products/observability_platform.md
+R015,hybrid,网关必须支持 API限流和 OIDC,4,1.0,1,1.0,products/api_gateway.md|technical/integration.md|products/observability_platform.md|products/data_platform.md,products/api_gateway.md
+R016,hybrid,网关应支持 OIDC 和 SAML,4,1.0,1,1.0,products/api_gateway.md|products/observability_platform.md|technical/integration.md|products/data_platform.md,products/api_gateway.md
+R017,hybrid,系统必须支持 SAML 单点登录,4,1.0,1,1.0,products/api_gateway.md|technical/high_availability.md|technical/integration.md|products/observability_platform.md,products/api_gateway.md
+R018,hybrid,平台必须支持 ETL 和 SQL,4,1.0,1,1.0,products/data_platform.md|technical/security_architecture.md|products/observability_platform.md|technical/integration.md,products/data_platform.md
+R019,hybrid,平台应支持多租户,4,1.0,1,1.0,products/data_platform.md|technical/security_architecture.md|products/api_gateway.md|products/observability_platform.md,products/data_platform.md
+R020,hybrid,服务可用性不低于 99.95%,4,1.0,1,1.0,services/sla.md|technical/high_availability.md|services/maintenance.md|technical/performance.md,services/sla.md
+R021,hybrid,服务可用性不低于 99.99%,4,1.0,1,1.0,services/sla.md|technical/high_availability.md|services/maintenance.md|technical/disaster_recovery.md,services/sla.md
+R022,hybrid,供应商应提供技术支持 3 年,4,1.0,1,1.0,services/maintenance.md|technical/integration.md|services/sla.md|services/implementation.md,services/maintenance.md
+R023,hybrid,供应商必须提供技术支持 5 年,4,1.0,1,0.5,technical/integration.md|services/maintenance.md|services/sla.md|services/implementation.md,services/maintenance.md
+R024,hybrid,项目交付不超过 90 天,4,1.0,1,1.0,services/implementation.md|services/commercial.md|technical/kubernetes_deployment.md|services/training.md,services/implementation.md
+R025,hybrid,项目交付不超过 30 天,4,1.0,1,1.0,services/implementation.md|services/commercial.md|technical/kubernetes_deployment.md|services/training.md,services/implementation.md
+R026,hybrid,项目应提供培训,4,1.0,1,0.5,services/implementation.md|services/training.md|services/sla.md|technical/integration.md,services/training.md
+R027,hybrid,服务应提供 7x24 故障响应,4,1.0,1,1.0,services/sla.md|services/maintenance.md|technical/high_availability.md|technical/integration.md,services/sla.md
+R028,hybrid,合同采用固定总价,4,1.0,1,1.0,services/commercial.md|services/sla.md|company/organization.md,services/commercial.md
+R029,hybrid,支持分期付款,4,1.0,1,1.0,services/commercial.md|services/implementation.md|services/training.md|services/maintenance.md,services/commercial.md
+R030,hybrid,提供银行项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/banking_case.md|cases/manufacturing_case.md|technical/integration.md,cases/banking_case.md
+R031,hybrid,提供电商项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/ecommerce_case.md|historical_bids/ecommerce_rfp_2025.md|technical/integration.md,cases/ecommerce_case.md
+R032,hybrid,提供制造项目案例（5分）,4,1.0,1,0.5,historical_bids/bank_rfp_2025.md|cases/manufacturing_case.md|cases/ecommerce_case.md|technical/integration.md,cases/manufacturing_case.md
+R034,hybrid,平台应支持 Kubernetes 与技术支持 3 年,4,1.0,1,0.3333333333333333,products/observability_platform.md|technical/security_architecture.md|technical/kubernetes_deployment.md|products/data_platform.md,technical/kubernetes_deployment.md
+R035,hybrid,私有化环境应支持 SQL 查询,4,1.0,1,0.5,technical/kubernetes_deployment.md|products/data_platform.md|technical/performance.md|products/observability_platform.md,products/data_platform.md
+R036,hybrid,网关应支持 SAML,4,1.0,1,0.5,products/observability_platform.md|products/api_gateway.md|technical/integration.md|products/data_platform.md,products/api_gateway.md
+R037,hybrid,具备 ISO27001 与 ISO9001 认证,4,1.0,1,0.5,certifications/iso9001.md|certifications/iso27001.md|certifications/software_copyright.md|company/organization.md,certifications/iso27001.md
+R038,hybrid,系统应支持审计和数据脱敏,4,1.0,1,1.0,technical/security_architecture.md|technical/data_governance.md|products/data_platform.md|technical/integration.md,technical/security_architecture.md
+R039,hybrid,要求 ETL 数据集成与多租户,4,1.0,1,1.0,products/data_platform.md|technical/integration.md|technical/disaster_recovery.md|technical/data_governance.md,products/data_platform.md
+R040,hybrid,支持 Prometheus 和 OpenTelemetry,4,1.0,1,1.0,products/observability_platform.md|products/data_platform.md|technical/security_architecture.md|technical/integration.md,products/observability_platform.md
+R041,hybrid,本地部署 k8s 容器安装,4,1.0,1,1.0,technical/kubernetes_deployment.md|technical/high_availability.md|products/data_platform.md|technical/disaster_recovery.md,technical/kubernetes_deployment.md
+R042,hybrid,管理员学习课程知识转移,4,1.0,1,1.0,services/training.md|services/implementation.md|services/maintenance.md|technical/data_governance.md,services/training.md|services/implementation.md

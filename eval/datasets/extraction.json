@@ -1,0 +1,502 @@
+[
+  {
+    "file": "01-bank-data-platform.md",
+    "requirements": [
+      {
+        "text": "系统必须支持 Kubernetes 私有化部署",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "系统应支持 RBAC 权限与审计",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "容灾要求 RTO 30 分钟且 RPO 5 分钟",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "投标人必须具备 ISO27001 认证",
+        "category": "qualification",
+        "mandatory": true
+      },
+      {
+        "text": "服务可用性不低于 99.95%",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "供应商应提供技术支持 3 年",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "提供银行项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "02-ecommerce-observability.md",
+    "requirements": [
+      {
+        "text": "系统应支持 Prometheus 指标采集",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统应支持 OpenTelemetry 链路接入",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "网关必须支持 API限流和 OIDC",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "服务可用性不低于 99.95%",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "服务应提供 7x24 故障响应",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "提供电商项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "03-manufacturing-data.md",
+    "requirements": [
+      {
+        "text": "平台必须支持 ETL 和 SQL",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "平台应支持多租户",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统必须支持数据脱敏",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "项目应提供培训",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "提供制造项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "04-api-gateway.md",
+    "requirements": [
+      {
+        "text": "网关必须支持 API限流和 OIDC",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "网关应支持 OIDC 和 SAML",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统必须支持 SAML 单点登录",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "合同采用固定总价",
+        "category": "commercial",
+        "mandatory": false
+      },
+      {
+        "text": "支持分期付款",
+        "category": "commercial",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "05-qualification-gap.md",
+    "requirements": [
+      {
+        "text": "系统必须支持 Kubernetes 私有化部署",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "投标人必须具备 ISO27001 认证",
+        "category": "qualification",
+        "mandatory": true
+      },
+      {
+        "text": "投标人必须具备 ISO20000 认证",
+        "category": "qualification",
+        "mandatory": true
+      },
+      {
+        "text": "系统必须具备 SOC2 认证",
+        "category": "qualification",
+        "mandatory": true
+      },
+      {
+        "text": "供应商应提供技术支持 3 年",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "06-strict-sla.md",
+    "requirements": [
+      {
+        "text": "系统必须支持 Kubernetes 私有化部署",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "系统应支持高可用和故障切换",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "服务可用性不低于 99.99%",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "供应商必须提供技术支持 5 年",
+        "category": "delivery",
+        "mandatory": true
+      },
+      {
+        "text": "项目交付不超过 30 天",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "07-private-analytics.md",
+    "requirements": [
+      {
+        "text": "私有化环境应支持 SQL 查询",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "平台必须支持 ETL 和 SQL",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "系统必须支持数据脱敏",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "产品应具备软件著作权",
+        "category": "qualification",
+        "mandatory": false
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "提供银行项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "08-devops-monitoring.md",
+    "requirements": [
+      {
+        "text": "系统必须支持 Kubernetes 私有化部署",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "系统应支持高可用和故障切换",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统应支持 Prometheus 指标采集",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统应支持 OpenTelemetry 链路接入",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "项目应提供培训",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "服务应提供 7x24 故障响应",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "09-high-throughput.md",
+    "requirements": [
+      {
+        "text": "查询性能应达到 QPS 1000",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "查询性能应达到 QPS 5000",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "服务可用性不低于 99.95%",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "提供银行项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "10-disaster-recovery.md",
+    "requirements": [
+      {
+        "text": "容灾要求 RTO 30 分钟且 RPO 5 分钟",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "容灾要求 RTO 10 分钟且 RPO 1 分钟",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统应支持高可用和故障切换",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "供应商应提供技术支持 3 年",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "11-commercial-package.md",
+    "requirements": [
+      {
+        "text": "投标人应具备 ISO9001 认证",
+        "category": "qualification",
+        "mandatory": false
+      },
+      {
+        "text": "供应商应提供技术支持 3 年",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "项目应提供培训",
+        "category": "delivery",
+        "mandatory": false
+      },
+      {
+        "text": "合同采用固定总价",
+        "category": "commercial",
+        "mandatory": false
+      },
+      {
+        "text": "支持分期付款",
+        "category": "commercial",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "12-multi-tenant.md",
+    "requirements": [
+      {
+        "text": "平台应支持多租户",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统应支持 RBAC 权限与审计",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "系统必须支持数据脱敏",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "平台必须支持 ETL 和 SQL",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "13-bank-compliance.md",
+    "requirements": [
+      {
+        "text": "系统应支持 RBAC 权限与审计",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "投标人必须具备 ISO27001 认证",
+        "category": "qualification",
+        "mandatory": true
+      },
+      {
+        "text": "投标人应具备 ISO9001 认证",
+        "category": "qualification",
+        "mandatory": false
+      },
+      {
+        "text": "产品应具备软件著作权",
+        "category": "qualification",
+        "mandatory": false
+      },
+      {
+        "text": "提供银行项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "14-minimal-rfp.md",
+    "requirements": [
+      {
+        "text": "系统必须支持 Kubernetes 私有化部署",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "投标人必须具备 ISO27001 认证",
+        "category": "qualification",
+        "mandatory": true
+      },
+      {
+        "text": "项目交付不超过 90 天",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "15-mixed-identity.md",
+    "requirements": [
+      {
+        "text": "网关必须支持 API限流和 OIDC",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "系统必须支持 SAML 单点登录",
+        "category": "technical",
+        "mandatory": true
+      },
+      {
+        "text": "具备 ISO27001 与 ISO9001 认证",
+        "category": "qualification",
+        "mandatory": false
+      },
+      {
+        "text": "服务可用性不低于 99.99%",
+        "category": "delivery",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "file": "16-compound-support.md",
+    "requirements": [
+      {
+        "text": "平台应支持 Kubernetes 与技术支持 3 年",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "要求 ETL 数据集成与多租户",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "支持 Prometheus 和 OpenTelemetry",
+        "category": "technical",
+        "mandatory": false
+      },
+      {
+        "text": "供应商必须提供技术支持 5 年",
+        "category": "delivery",
+        "mandatory": true
+      },
+      {
+        "text": "提供制造项目案例（5分）",
+        "category": "scoring",
+        "mandatory": false
+      }
+    ]
+  }
+]

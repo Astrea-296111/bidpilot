@@ -1,0 +1,22 @@
+name: Lite checks
+on: [push, pull_request]
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.12']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[dev,ui]"
+      - run: ruff check .
+      - run: pytest -q
+      - run: python -m eval.run
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-${{ matrix.os }}-${{ matrix.python }}
+          path: artifacts/eval/

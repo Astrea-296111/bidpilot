@@ -1,0 +1,10 @@
+{
+  "backend": "real uvicorn HTTP",
+  "upload": "PDF",
+  "sse": "node/retrieval/result received",
+  "ui": "Streamlit AppTest render and Approve click passed",
+  "score": 100.0,
+  "approval": "saved",
+  "dataframes": 2,
+  "ui_exceptions": 0
+}

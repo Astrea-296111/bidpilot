@@ -1,0 +1,62 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: bidpilot
+      POSTGRES_PASSWORD: bidpilot
+      POSTGRES_DB: bidpilot
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bidpilot"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    ports: ["127.0.0.1:6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  qdrant:
+    image: qdrant/qdrant:v1.14.1
+    ports: ["127.0.0.1:6333:6333"]
+    volumes: ["qdrant-data:/qdrant/storage"]
+  mcp-server:
+    build: .
+    env_file: .env
+    environment:
+      MODE: lite
+      PROJECT_ROOT: /app
+      RUNTIME_DIR: /app/runtime
+      DATABASE_URL: postgresql+asyncpg://bidpilot:bidpilot@postgres:5432/bidpilot
+    command: ["python", "-m", "bidpilot_mcp.server", "--transport", "streamable-http"]
+    ports: ["127.0.0.1:8001:8001"]
+    depends_on:
+      postgres: {condition: service_healthy}
+  backend:
+    build: .
+    env_file: .env
+    environment:
+      MODE: full
+      PROJECT_ROOT: /app
+      RUNTIME_DIR: /app/runtime
+      DATABASE_URL: postgresql+asyncpg://bidpilot:bidpilot@postgres:5432/bidpilot
+      REDIS_URL: redis://redis:6379/0
+      QDRANT_URL: http://qdrant:6333
+      MCP_TRANSPORT: http
+      MCP_URL: http://mcp-server:8001/mcp
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["backend-data:/app/runtime", "model-cache:/root/.cache/huggingface"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+      qdrant: {condition: service_started}
+      mcp-server: {condition: service_started}
+volumes:
+  postgres-data:
+  qdrant-data:
+  backend-data:
+  model-cache:

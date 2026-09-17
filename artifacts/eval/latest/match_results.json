@@ -1,0 +1,356 @@
+[
+  {
+    "id": "M001",
+    "text": "系统必须支持 Kubernetes 私有化部署",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-1bea714e98586941"
+    ]
+  },
+  {
+    "id": "M002",
+    "text": "系统应支持高可用和故障切换",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-751ba6fafb9d9d5f"
+    ]
+  },
+  {
+    "id": "M003",
+    "text": "投标人必须具备 ISO27001 认证",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-6032664c00830e84"
+    ]
+  },
+  {
+    "id": "M004",
+    "text": "投标人应具备 ISO9001 认证",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-053de1761c05205b"
+    ]
+  },
+  {
+    "id": "M005",
+    "text": "投标人必须具备 ISO20000 认证",
+    "expected": "GAP",
+    "predicted": "GAP",
+    "evidence_ids": []
+  },
+  {
+    "id": "M006",
+    "text": "产品应具备软件著作权",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-009d4f09fb4cdcb7"
+    ]
+  },
+  {
+    "id": "M007",
+    "text": "系统应支持 RBAC 权限与审计",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-ac931c2c997c32d2"
+    ]
+  },
+  {
+    "id": "M008",
+    "text": "系统必须支持数据脱敏",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-46dc93d22b863ed9"
+    ]
+  },
+  {
+    "id": "M009",
+    "text": "容灾要求 RTO 30 分钟且 RPO 5 分钟",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-b41d33fca8d40520"
+    ]
+  },
+  {
+    "id": "M010",
+    "text": "容灾要求 RTO 10 分钟且 RPO 1 分钟",
+    "expected": "PARTIAL",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-b41d33fca8d40520"
+    ]
+  },
+  {
+    "id": "M011",
+    "text": "查询性能应达到 QPS 1000",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-0439dc5329065151"
+    ]
+  },
+  {
+    "id": "M012",
+    "text": "查询性能应达到 QPS 5000",
+    "expected": "PARTIAL",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-0439dc5329065151"
+    ]
+  },
+  {
+    "id": "M013",
+    "text": "系统应支持 Prometheus 指标采集",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-406fa3c508745794"
+    ]
+  },
+  {
+    "id": "M014",
+    "text": "系统应支持 OpenTelemetry 链路接入",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-406fa3c508745794"
+    ]
+  },
+  {
+    "id": "M015",
+    "text": "网关必须支持 API限流和 OIDC",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-ed301bd44967b44f"
+    ]
+  },
+  {
+    "id": "M016",
+    "text": "网关应支持 OIDC 和 SAML",
+    "expected": "PARTIAL",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-ed301bd44967b44f"
+    ]
+  },
+  {
+    "id": "M017",
+    "text": "系统必须支持 SAML 单点登录",
+    "expected": "GAP",
+    "predicted": "GAP",
+    "evidence_ids": []
+  },
+  {
+    "id": "M018",
+    "text": "平台必须支持 ETL 和 SQL",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-cfea1ac2e7d4d4f4"
+    ]
+  },
+  {
+    "id": "M019",
+    "text": "平台应支持多租户",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-cfea1ac2e7d4d4f4"
+    ]
+  },
+  {
+    "id": "M020",
+    "text": "服务可用性不低于 99.95%",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-fd5a5a004bde7917"
+    ]
+  },
+  {
+    "id": "M021",
+    "text": "服务可用性不低于 99.99%",
+    "expected": "PARTIAL",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-fd5a5a004bde7917"
+    ]
+  },
+  {
+    "id": "M022",
+    "text": "供应商应提供技术支持 3 年",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-9e6383c4b28e6439"
+    ]
+  },
+  {
+    "id": "M023",
+    "text": "供应商必须提供技术支持 5 年",
+    "expected": "PARTIAL",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-9e6383c4b28e6439"
+    ]
+  },
+  {
+    "id": "M024",
+    "text": "项目交付不超过 90 天",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-a06116a0a593d4c5"
+    ]
+  },
+  {
+    "id": "M025",
+    "text": "项目交付不超过 30 天",
+    "expected": "PARTIAL",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-a06116a0a593d4c5"
+    ]
+  },
+  {
+    "id": "M026",
+    "text": "项目应提供培训",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-a06116a0a593d4c5"
+    ]
+  },
+  {
+    "id": "M027",
+    "text": "服务应提供 7x24 故障响应",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-fd5a5a004bde7917"
+    ]
+  },
+  {
+    "id": "M028",
+    "text": "合同采用固定总价",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-59e63b972af40ddd"
+    ]
+  },
+  {
+    "id": "M029",
+    "text": "支持分期付款",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-59e63b972af40ddd"
+    ]
+  },
+  {
+    "id": "M030",
+    "text": "提供银行项目案例（5分）",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-64e2289a72039f5e"
+    ]
+  },
+  {
+    "id": "M031",
+    "text": "提供电商项目案例（5分）",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-1a4810ba73f5d753"
+    ]
+  },
+  {
+    "id": "M032",
+    "text": "提供制造项目案例（5分）",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-567472c2309ae4ef"
+    ]
+  },
+  {
+    "id": "M033",
+    "text": "系统必须具备 SOC2 认证",
+    "expected": "GAP",
+    "predicted": "GAP",
+    "evidence_ids": []
+  },
+  {
+    "id": "M034",
+    "text": "平台应支持 Kubernetes 与技术支持 3 年",
+    "expected": "MATCH",
+    "predicted": "PARTIAL",
+    "evidence_ids": [
+      "EV-1bea714e98586941"
+    ]
+  },
+  {
+    "id": "M035",
+    "text": "私有化环境应支持 SQL 查询",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-1bea714e98586941",
+      "EV-cfea1ac2e7d4d4f4"
+    ]
+  },
+  {
+    "id": "M036",
+    "text": "网关应支持 SAML",
+    "expected": "GAP",
+    "predicted": "GAP",
+    "evidence_ids": []
+  },
+  {
+    "id": "M037",
+    "text": "具备 ISO27001 与 ISO9001 认证",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-053de1761c05205b",
+      "EV-6032664c00830e84"
+    ]
+  },
+  {
+    "id": "M038",
+    "text": "系统应支持审计和数据脱敏",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-ac931c2c997c32d2"
+    ]
+  },
+  {
+    "id": "M039",
+    "text": "要求 ETL 数据集成与多租户",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-cfea1ac2e7d4d4f4"
+    ]
+  },
+  {
+    "id": "M040",
+    "text": "支持 Prometheus 和 OpenTelemetry",
+    "expected": "MATCH",
+    "predicted": "MATCH",
+    "evidence_ids": [
+      "EV-406fa3c508745794"
+    ]
+  }
+]

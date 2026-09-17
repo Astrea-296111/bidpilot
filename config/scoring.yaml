@@ -1,0 +1,11 @@
+bid:
+  bid_threshold: 80
+  conditional_threshold: 60
+  mandatory_gap_penalty: 20
+  severe_gap_categories: [qualification]
+  weights:
+    mandatory: 0.35
+    qualification: 0.25
+    technical: 0.20
+    experience: 0.10
+    service: 0.10

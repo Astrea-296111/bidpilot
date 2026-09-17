@@ -1,0 +1,24 @@
+INFO:     Started server process [6]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:49929 (Press CTRL+C to quit)
+INFO:     127.0.0.1:37740 - "GET /api/health HTTP/1.1" 200 OK
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+INFO:     127.0.0.1:37740 - "POST /api/tenders/upload HTTP/1.1" 201 Created
+INFO:     127.0.0.1:37740 - "POST /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37740 - "GET /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/analyze/stream HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37740 - "GET /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37744 - "GET /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37760 - "GET /api/knowledge/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37770 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37772 - "GET /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37774 - "POST /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37806 - "GET /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37814 - "GET /api/knowledge/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37740 - "GET /api/tenders/0fde7f9c397e4394ab970b0da2e58ba8/report HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6]

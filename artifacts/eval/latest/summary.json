@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-16T17:56:26.170475+00:00",
+  "mode": "lite",
+  "model": "fake-rules-v1 (not a real LLM)",
+  "embedding": "deterministic-hash-512-v1",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux"
+  },
+  "dataset_sha256": {
+    "extraction": "4610e65fc020e1a690653ddd58916221f185f551dbfa5a92a425457f4054fd68",
+    "retrieval": "8a6a420cd70f48448c63ff2985f27306465cdc268d2f4cef059f5bf4edab124e",
+    "matching": "01817ffd383e49afb949e9aef1a1ca39bce38dd73f9fab6fbaee820831660a17"
+  },
+  "extraction": {
+    "rfps": 16,
+    "gold_requirements": 84,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "mandatory_recall": 1.0,
+    "matching_method": "normalized exact text + category + mandatory; synthetic bullet fixtures"
+  },
+  "retrieval": {
+    "vector": {
+      "queries": 40,
+      "k_chunks": 4,
+      "recall_at_k": 1.0,
+      "hit_rate": 1.0,
+      "mrr": 0.83125
+    },
+    "bm25": {
+      "queries": 40,
+      "k_chunks": 4,
+      "recall_at_k": 1.0,
+      "hit_rate": 1.0,
+      "mrr": 0.925
+    },
+    "hybrid": {
+      "queries": 40,
+      "k_chunks": 4,
+      "recall_at_k": 1.0,
+      "hit_rate": 1.0,
+      "mrr": 0.8833333333333334
+    },
+    "rerank": "NOT_MEASURED (optional model disabled)"
+  },
+  "matching": {
+    "cases": 40,
+    "accuracy": 0.975,
+    "macro_f1": 0.9687092568448502,
+    "confusion": {
+      "MATCH": {
+        "MATCH": 29,
+        "PARTIAL": 1,
+        "GAP": 0
+      },
+      "PARTIAL": {
+        "MATCH": 0,
+        "PARTIAL": 6,
+        "GAP": 0
+      },
+      "GAP": {
+        "MATCH": 0,
+        "PARTIAL": 0,
+        "GAP": 4
+      }
+    }
+  },
+  "agent": {
+    "cases": 16,
+    "task_success_rate": 1.0,
+    "reviewer_retry_rate": 0.1875,
+    "average_retrieval_calls": 5.5,
+    "average_tool_calls": 5.5,
+    "average_latency_ms": 925.78875,
+    "citation_validity_rate": 1.0,
+    "success_definition": "grounded requirements, matrix, score, outline, HITL interrupt; not business correctness"
+  },
+  "full_mode": "NOT_MEASURED (eval uses isolated SQLite even with a real model)",
+  "semantic_embedding": "NOT_MEASURED",
+  "limitation": "Synthetic fixtures; Lite rules do not measure real LLM quality."
+}

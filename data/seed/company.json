@@ -1,0 +1,71 @@
+{
+  "profile": {
+    "name": "AuroraSoft",
+    "simulated": true,
+    "employees": 80,
+    "industries": [
+      "banking",
+      "ecommerce",
+      "manufacturing"
+    ]
+  },
+  "products": {
+    "data_platform": {
+      "Kubernetes": true,
+      "ETL": true,
+      "SQL": true,
+      "RBAC": true,
+      "QPS": 1000
+    },
+    "api_gateway": {
+      "OIDC": true,
+      "API限流": true,
+      "SAML": false
+    }
+  },
+  "qualifications": {
+    "ISO27001": {
+      "id": "DEMO-ISO27001-001",
+      "valid_until": "2028-12-31",
+      "source": "certifications/iso27001.md"
+    },
+    "ISO9001": {
+      "id": "DEMO-ISO9001-001",
+      "valid_until": "2028-12-31",
+      "source": "certifications/iso9001.md"
+    },
+    "软件著作权": {
+      "id": "DEMO-COPY-001",
+      "source": "certifications/software_copyright.md"
+    }
+  },
+  "cases": [
+    {
+      "industry": "banking",
+      "name": "banking_case",
+      "source": "cases/banking_case.md"
+    },
+    {
+      "industry": "ecommerce",
+      "name": "ecommerce_case",
+      "source": "cases/ecommerce_case.md"
+    },
+    {
+      "industry": "manufacturing",
+      "name": "manufacturing_case",
+      "source": "cases/manufacturing_case.md"
+    }
+  ],
+  "historical_bids": [
+    {
+      "industry": "banking",
+      "project": "bank-data-platform",
+      "result": "won"
+    },
+    {
+      "industry": "ecommerce",
+      "project": "observability",
+      "result": "conditional"
+    }
+  ]
+}

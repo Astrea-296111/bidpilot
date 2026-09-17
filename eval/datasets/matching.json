@@ -1,0 +1,282 @@
+[
+  {
+    "id": "M001",
+    "text": "系统必须支持 Kubernetes 私有化部署",
+    "category": "technical",
+    "mandatory": true,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M002",
+    "text": "系统应支持高可用和故障切换",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M003",
+    "text": "投标人必须具备 ISO27001 认证",
+    "category": "qualification",
+    "mandatory": true,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M004",
+    "text": "投标人应具备 ISO9001 认证",
+    "category": "qualification",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M005",
+    "text": "投标人必须具备 ISO20000 认证",
+    "category": "qualification",
+    "mandatory": true,
+    "expected_status": "GAP"
+  },
+  {
+    "id": "M006",
+    "text": "产品应具备软件著作权",
+    "category": "qualification",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M007",
+    "text": "系统应支持 RBAC 权限与审计",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M008",
+    "text": "系统必须支持数据脱敏",
+    "category": "technical",
+    "mandatory": true,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M009",
+    "text": "容灾要求 RTO 30 分钟且 RPO 5 分钟",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M010",
+    "text": "容灾要求 RTO 10 分钟且 RPO 1 分钟",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "PARTIAL"
+  },
+  {
+    "id": "M011",
+    "text": "查询性能应达到 QPS 1000",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M012",
+    "text": "查询性能应达到 QPS 5000",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "PARTIAL"
+  },
+  {
+    "id": "M013",
+    "text": "系统应支持 Prometheus 指标采集",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M014",
+    "text": "系统应支持 OpenTelemetry 链路接入",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M015",
+    "text": "网关必须支持 API限流和 OIDC",
+    "category": "technical",
+    "mandatory": true,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M016",
+    "text": "网关应支持 OIDC 和 SAML",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "PARTIAL"
+  },
+  {
+    "id": "M017",
+    "text": "系统必须支持 SAML 单点登录",
+    "category": "technical",
+    "mandatory": true,
+    "expected_status": "GAP"
+  },
+  {
+    "id": "M018",
+    "text": "平台必须支持 ETL 和 SQL",
+    "category": "technical",
+    "mandatory": true,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M019",
+    "text": "平台应支持多租户",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M020",
+    "text": "服务可用性不低于 99.95%",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M021",
+    "text": "服务可用性不低于 99.99%",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "PARTIAL"
+  },
+  {
+    "id": "M022",
+    "text": "供应商应提供技术支持 3 年",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M023",
+    "text": "供应商必须提供技术支持 5 年",
+    "category": "delivery",
+    "mandatory": true,
+    "expected_status": "PARTIAL"
+  },
+  {
+    "id": "M024",
+    "text": "项目交付不超过 90 天",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M025",
+    "text": "项目交付不超过 30 天",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "PARTIAL"
+  },
+  {
+    "id": "M026",
+    "text": "项目应提供培训",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M027",
+    "text": "服务应提供 7x24 故障响应",
+    "category": "delivery",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M028",
+    "text": "合同采用固定总价",
+    "category": "commercial",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M029",
+    "text": "支持分期付款",
+    "category": "commercial",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M030",
+    "text": "提供银行项目案例（5分）",
+    "category": "scoring",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M031",
+    "text": "提供电商项目案例（5分）",
+    "category": "scoring",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M032",
+    "text": "提供制造项目案例（5分）",
+    "category": "scoring",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M033",
+    "text": "系统必须具备 SOC2 认证",
+    "category": "qualification",
+    "mandatory": true,
+    "expected_status": "GAP"
+  },
+  {
+    "id": "M034",
+    "text": "平台应支持 Kubernetes 与技术支持 3 年",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M035",
+    "text": "私有化环境应支持 SQL 查询",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M036",
+    "text": "网关应支持 SAML",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "GAP"
+  },
+  {
+    "id": "M037",
+    "text": "具备 ISO27001 与 ISO9001 认证",
+    "category": "qualification",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M038",
+    "text": "系统应支持审计和数据脱敏",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M039",
+    "text": "要求 ETL 数据集成与多租户",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  },
+  {
+    "id": "M040",
+    "text": "支持 Prometheus 和 OpenTelemetry",
+    "category": "technical",
+    "mandatory": false,
+    "expected_status": "MATCH"
+  }
+]

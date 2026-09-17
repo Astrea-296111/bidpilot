@@ -1,0 +1,323 @@
+[
+  {
+    "id": "R001",
+    "query": "系统必须支持 Kubernetes 私有化部署",
+    "category": "technical",
+    "expected_docs": [
+      "technical/kubernetes_deployment.md"
+    ]
+  },
+  {
+    "id": "R002",
+    "query": "系统应支持高可用和故障切换",
+    "category": "technical",
+    "expected_docs": [
+      "technical/high_availability.md"
+    ]
+  },
+  {
+    "id": "R003",
+    "query": "投标人必须具备 ISO27001 认证",
+    "category": "qualification",
+    "expected_docs": [
+      "certifications/iso27001.md"
+    ]
+  },
+  {
+    "id": "R004",
+    "query": "投标人应具备 ISO9001 认证",
+    "category": "qualification",
+    "expected_docs": [
+      "certifications/iso9001.md"
+    ]
+  },
+  {
+    "id": "R006",
+    "query": "产品应具备软件著作权",
+    "category": "qualification",
+    "expected_docs": [
+      "certifications/software_copyright.md"
+    ]
+  },
+  {
+    "id": "R007",
+    "query": "系统应支持 RBAC 权限与审计",
+    "category": "technical",
+    "expected_docs": [
+      "technical/security_architecture.md"
+    ]
+  },
+  {
+    "id": "R008",
+    "query": "系统必须支持数据脱敏",
+    "category": "technical",
+    "expected_docs": [
+      "technical/data_governance.md"
+    ]
+  },
+  {
+    "id": "R009",
+    "query": "容灾要求 RTO 30 分钟且 RPO 5 分钟",
+    "category": "technical",
+    "expected_docs": [
+      "technical/disaster_recovery.md"
+    ]
+  },
+  {
+    "id": "R010",
+    "query": "容灾要求 RTO 10 分钟且 RPO 1 分钟",
+    "category": "technical",
+    "expected_docs": [
+      "technical/disaster_recovery.md"
+    ]
+  },
+  {
+    "id": "R011",
+    "query": "查询性能应达到 QPS 1000",
+    "category": "technical",
+    "expected_docs": [
+      "technical/performance.md"
+    ]
+  },
+  {
+    "id": "R012",
+    "query": "查询性能应达到 QPS 5000",
+    "category": "technical",
+    "expected_docs": [
+      "technical/performance.md"
+    ]
+  },
+  {
+    "id": "R013",
+    "query": "系统应支持 Prometheus 指标采集",
+    "category": "technical",
+    "expected_docs": [
+      "products/observability_platform.md"
+    ]
+  },
+  {
+    "id": "R014",
+    "query": "系统应支持 OpenTelemetry 链路接入",
+    "category": "technical",
+    "expected_docs": [
+      "products/observability_platform.md"
+    ]
+  },
+  {
+    "id": "R015",
+    "query": "网关必须支持 API限流和 OIDC",
+    "category": "technical",
+    "expected_docs": [
+      "products/api_gateway.md"
+    ]
+  },
+  {
+    "id": "R016",
+    "query": "网关应支持 OIDC 和 SAML",
+    "category": "technical",
+    "expected_docs": [
+      "products/api_gateway.md"
+    ]
+  },
+  {
+    "id": "R017",
+    "query": "系统必须支持 SAML 单点登录",
+    "category": "technical",
+    "expected_docs": [
+      "products/api_gateway.md"
+    ]
+  },
+  {
+    "id": "R018",
+    "query": "平台必须支持 ETL 和 SQL",
+    "category": "technical",
+    "expected_docs": [
+      "products/data_platform.md"
+    ]
+  },
+  {
+    "id": "R019",
+    "query": "平台应支持多租户",
+    "category": "technical",
+    "expected_docs": [
+      "products/data_platform.md"
+    ]
+  },
+  {
+    "id": "R020",
+    "query": "服务可用性不低于 99.95%",
+    "category": "delivery",
+    "expected_docs": [
+      "services/sla.md"
+    ]
+  },
+  {
+    "id": "R021",
+    "query": "服务可用性不低于 99.99%",
+    "category": "delivery",
+    "expected_docs": [
+      "services/sla.md"
+    ]
+  },
+  {
+    "id": "R022",
+    "query": "供应商应提供技术支持 3 年",
+    "category": "delivery",
+    "expected_docs": [
+      "services/maintenance.md"
+    ]
+  },
+  {
+    "id": "R023",
+    "query": "供应商必须提供技术支持 5 年",
+    "category": "delivery",
+    "expected_docs": [
+      "services/maintenance.md"
+    ]
+  },
+  {
+    "id": "R024",
+    "query": "项目交付不超过 90 天",
+    "category": "delivery",
+    "expected_docs": [
+      "services/implementation.md"
+    ]
+  },
+  {
+    "id": "R025",
+    "query": "项目交付不超过 30 天",
+    "category": "delivery",
+    "expected_docs": [
+      "services/implementation.md"
+    ]
+  },
+  {
+    "id": "R026",
+    "query": "项目应提供培训",
+    "category": "delivery",
+    "expected_docs": [
+      "services/training.md"
+    ]
+  },
+  {
+    "id": "R027",
+    "query": "服务应提供 7x24 故障响应",
+    "category": "delivery",
+    "expected_docs": [
+      "services/sla.md"
+    ]
+  },
+  {
+    "id": "R028",
+    "query": "合同采用固定总价",
+    "category": "commercial",
+    "expected_docs": [
+      "services/commercial.md"
+    ]
+  },
+  {
+    "id": "R029",
+    "query": "支持分期付款",
+    "category": "commercial",
+    "expected_docs": [
+      "services/commercial.md"
+    ]
+  },
+  {
+    "id": "R030",
+    "query": "提供银行项目案例（5分）",
+    "category": "scoring",
+    "expected_docs": [
+      "cases/banking_case.md"
+    ]
+  },
+  {
+    "id": "R031",
+    "query": "提供电商项目案例（5分）",
+    "category": "scoring",
+    "expected_docs": [
+      "cases/ecommerce_case.md"
+    ]
+  },
+  {
+    "id": "R032",
+    "query": "提供制造项目案例（5分）",
+    "category": "scoring",
+    "expected_docs": [
+      "cases/manufacturing_case.md"
+    ]
+  },
+  {
+    "id": "R034",
+    "query": "平台应支持 Kubernetes 与技术支持 3 年",
+    "category": "technical",
+    "expected_docs": [
+      "technical/kubernetes_deployment.md"
+    ]
+  },
+  {
+    "id": "R035",
+    "query": "私有化环境应支持 SQL 查询",
+    "category": "technical",
+    "expected_docs": [
+      "products/data_platform.md"
+    ]
+  },
+  {
+    "id": "R036",
+    "query": "网关应支持 SAML",
+    "category": "technical",
+    "expected_docs": [
+      "products/api_gateway.md"
+    ]
+  },
+  {
+    "id": "R037",
+    "query": "具备 ISO27001 与 ISO9001 认证",
+    "category": "qualification",
+    "expected_docs": [
+      "certifications/iso27001.md"
+    ]
+  },
+  {
+    "id": "R038",
+    "query": "系统应支持审计和数据脱敏",
+    "category": "technical",
+    "expected_docs": [
+      "technical/security_architecture.md"
+    ]
+  },
+  {
+    "id": "R039",
+    "query": "要求 ETL 数据集成与多租户",
+    "category": "technical",
+    "expected_docs": [
+      "products/data_platform.md"
+    ]
+  },
+  {
+    "id": "R040",
+    "query": "支持 Prometheus 和 OpenTelemetry",
+    "category": "technical",
+    "expected_docs": [
+      "products/observability_platform.md"
+    ]
+  },
+  {
+    "id": "R041",
+    "query": "本地部署 k8s 容器安装",
+    "category": "technical",
+    "expected_docs": [
+      "technical/kubernetes_deployment.md"
+    ]
+  },
+  {
+    "id": "R042",
+    "query": "管理员学习课程知识转移",
+    "category": "delivery",
+    "expected_docs": [
+      "services/training.md",
+      "services/implementation.md"
+    ]
+  }
+]
